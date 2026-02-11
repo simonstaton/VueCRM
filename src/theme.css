@@ -1,0 +1,104 @@
+/* Custom branding: warm neutrals + teal accent (clean, minimal) */
+
+:root {
+  /* Primary / accent – deep teal */
+  --color-primary-50: #0d5c5c0a;
+  --color-primary-100: #0d5c5c1a;
+  --color-primary-200: #0d5c5c33;
+  --color-primary-300: #0d5c5c66;
+  --color-primary-400: #0d5c5c99;
+  --color-primary-500: #0d5c5c;
+
+  /* Neutrals – warm charcoal */
+  --color-neutral-50: #1a191826;
+  --color-neutral-100: #1a19180a;
+  --color-neutral-200: #1a191833;
+  --color-neutral-250: #1a191866;
+  --color-neutral-300: #1a191899;
+  --color-neutral-350: #1a1918cc;
+  --color-neutral-400: #1a1918;
+  --color-neutral-500: #f5f4f2;
+
+  /* Body text */
+  --color-body-100: #1a1918;
+  --color-body-200: #1a1918cc;
+  --color-link-500: #0d5c5c;
+  --color-link-600: #0a4949;
+
+  /* Surfaces – warm off-white */
+  --color-background-0: transparent;
+  --color-background-1: #1a191808;
+  --color-background-150: #fff;
+  --color-background-200: #faf9f7;
+  --color-background-250: #ffffff66;
+  --color-background-350: #1a191833;
+  --color-background-400: #1a1918e6;
+  --color-background-500: #1a191880;
+  --color-background-600: #1a19181a;
+  --color-background-700: #1a19180d;
+  --color-background-800: #1a191899;
+  --color-background-inverse-solid: #fff;
+  --color-background-solid: #1a1918;
+  --color-background-inverse-solid-light: #e8e6e3;
+  --color-background-white-solid-constant: #fff;
+
+  /* Focus ring – match primary */
+  --shadow-focus-ring: 0 0 0 2px #fff, 0 0 0 4px #0d5c5c;
+  --shadow-background-blur: 0 0 0 2px #fff, 0 0 0 4px #0d5c5c;
+
+  /* Brand (used by some components) */
+  --color-brand-purple-500: #0d5c5c;
+  --color-brand-purple-50: #0d5c5c1a;
+}
+
+/* Dark mode: same design tokens, inverted for dark surfaces */
+.dark {
+  /* Primary / accent – teal, slightly lighter on dark */
+  --color-primary-50: #0d5c5c26;
+  --color-primary-100: #0d5c5c33;
+  --color-primary-200: #0d5c5c4d;
+  --color-primary-300: #0d5c5c66;
+  --color-primary-400: #2a9d9d;
+  --color-primary-500: #3db8b8;
+
+  /* Neutrals – warm light on dark */
+  --color-neutral-50: #f5f4f226;
+  --color-neutral-100: #f5f4f20a;
+  --color-neutral-200: #f5f4f233;
+  --color-neutral-250: #f5f4f266;
+  --color-neutral-300: #f5f4f299;
+  --color-neutral-350: #f5f4f2cc;
+  --color-neutral-400: #f5f4f2;
+  --color-neutral-500: #2c2b29;
+
+  /* Body text */
+  --color-body-100: #f5f4f2;
+  --color-body-200: #f5f4f2cc;
+  --color-link-500: #3db8b8;
+  --color-link-600: #5cc9c9;
+
+  /* Surfaces – dark warm charcoal */
+  --color-background-0: transparent;
+  --color-background-1: #1a191814;
+  --color-background-150: #252422;
+  --color-background-200: #1a1918;
+  --color-background-250: #1a191899;
+  --color-background-350: #f5f4f233;
+  --color-background-400: #f5f4f2e6;
+  --color-background-500: #f5f4f280;
+  --color-background-600: #f5f4f21a;
+  --color-background-700: #f5f4f20d;
+  --color-background-800: #f5f4f299;
+  --color-background-inverse-solid: #1a1918;
+  --color-background-solid: #f5f4f2;
+  --color-background-inverse-solid-light: #3a3937;
+  --color-background-white-solid-constant: #fff;
+
+  /* Focus ring */
+  --shadow-focus-ring: 0 0 0 2px #1a1918, 0 0 0 4px #3db8b8;
+  --shadow-background-blur: 0 0 0 2px #1a1918, 0 0 0 4px #3db8b8;
+
+  /* Brand */
+  --color-brand-purple-500: #3db8b8;
+  --color-brand-purple-50: #3db8b826;
+}
